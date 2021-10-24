@@ -1,12 +1,12 @@
 import socket
-import os
 from pynput import keyboard 
 
+# Create TCP/IP socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = '127.0.0.1'
 port = 65432
 s.connect((host, port))
-os.system('cls')
+
 print("Connected")
 print("Available controls: speeds 0 - 5 and wasd")
 print("Enter the speed value first then direction value")
