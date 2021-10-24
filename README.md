@@ -10,7 +10,7 @@ Keyboard controls are used in this project. The inputs are:
 
 Once client is connected to the server, any keystrokes from the client side will be sent to the server for output.
 Depending on the input, the output would display the change in speed or the direction the rover is going.  
-If any number between 0 and 5 is pressed, the output would be for example: "Speed set to 5"
+If any number between 0 and 5 is pressed, the output would be for example: "Speed set to 5"  
 If wasd is pressed, the output would be for example: "[f255][f255][f255][f255]"
 If the esc key is pressed, the client will disconnect but server will stay on.
 
